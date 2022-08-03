@@ -18,6 +18,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 124px;
+    color: #fff;
 }
 
 #digitOne{
@@ -52,6 +53,7 @@
 .digitsCounter{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    color: #fff;
 }
 
 #numberOne{

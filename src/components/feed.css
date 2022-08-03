@@ -1,6 +1,6 @@
 .bgFeed{
     background-image: url(../../public/images/backgroundImageBottom.jpg);
-    background-size: 100% 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
@@ -16,11 +16,38 @@
 .news{
     font-family: bubblegumSuperStar;
     font-size: 84px;
+    color: #fff;
 }
 
 .containerFeed{
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: flex-start;
+}
+
+.parallelogram{
+    width: 500px;
+    height: 800px;
+    background-color: #000;
+    border: #fff;
+    border-style: solid;
+    transform: skew(7deg,0) translate(0,100px);
+}
+
+.footerList{
+    display: flex;
+    list-style: none; 
+    font-family: bubblegumSuperStar;
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+.footerLink{
+    margin-right: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 

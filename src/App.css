@@ -1,3 +1,7 @@
+body{
+  background-color: #eb1c22;
+}
+
 .bgTop{
   background-image: url(../public/images/backgroundImageTop.jpg);
   background-size: 100% 100%;
