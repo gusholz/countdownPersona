@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    margin-left: 15%;
+    align-items: center;
+}
+
+.contador{
+    display: flex;
+    flex-direction: column;
+}
+
+.days{
+    width: 25%;
+    transform: translate(-100px,0);
+}
+
+.daysCounter{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 124px;
+}
+
+#digitOne{
+    transform: translate(-200px,0) rotate(355deg);
+}
+
+#digitTwo{
+    transform: translate(-145px,10px) rotate(5deg);
+}
+
+.to{
+    width: 10%;
+    margin-left: 22%;
+    transform: translate(0,-100px);
+}
+
+.placeholderTimer{
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    transform: rotate(355deg);
+}
+
+.placeholderDays{
+    width: 20%;
+}
+
+.counterEndDay{
+    display: flex;
+}
+
+.digitsCounter{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#numberOne{
+    transform:rotate(350deg) translate(-375px, -135px);
+    font-size: 100px;
+}
+
+#numberTwo{
+    transform:rotate(355deg) translate(-365px, -88px);
+    font-size: 86px;
+}
+
+#numberThree{
+    transform:rotate(350deg) translate(-310px, -125px);
+    font-size: 86px;
+}
+
+#numberFour{
+    transform:rotate(350deg) translate(-295px, -120px);
+    font-size: 80px;
+}
+
+#numberFive{
+    transform:rotate(3deg) translate(-288px, -65px);
+    font-size: 84px;
+}
+
+#numberSix{
+    transform:rotate(3deg) translate(-273px, -45px);
+    font-size: 74px;
+}
