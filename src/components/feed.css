@@ -15,8 +15,9 @@
 
 .news{
     font-family: bubblegumSuperStar;
-    font-size: 84px;
+    font-size: 124px;
     color: #fff;
+    transform: translate(280px,0);
 }
 
 .containerFeed{
@@ -31,7 +32,8 @@
     background-color: #000;
     border: #fff;
     border-style: solid;
-    transform: skew(7deg,0) translate(0,100px);
+    border-width: 6px;
+    transform: skew(7deg,0) translate(-240px,230px);
 }
 
 .footerList{

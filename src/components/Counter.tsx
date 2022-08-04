@@ -37,7 +37,7 @@ export default function Counter(){
                     <img className="placeholderDays" src="images/placeholderDays.png"/>
                     <h1 className="daysCounter" id="digitOne">{digitoUm}</h1>
                     <h1 className="daysCounter" id="digitTwo">{digitoDois}</h1>
-                    <img src= "images/daysUpscale.png" alt="Days" className="days" />
+                    <img src= "images/daysUpscale.png" alt="Days" className="daysPng" />
                 </div>
                 <div className="counterEndDay">
                     <img src="images/placeholderTime.png" className="placeholderTimer"/>

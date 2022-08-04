@@ -9,41 +9,37 @@
     flex-direction: column;
 }
 
-.days{
-    width: 25%;
-    transform: translate(-100px,0);
+.placeholderDays{
+    width: 20vh;
+    margin-left: 1%;
+    transform:translate(-10vw) rotate(350deg);
 }
 
 .daysCounter{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 124px;
     color: #fff;
 }
 
 #digitOne{
-    transform: translate(-200px,0) rotate(355deg);
+    transform: translate(-19vw,1vh) rotate(343deg);
+    font-size: 134px;
 }
 
 #digitTwo{
-    transform: translate(-145px,10px) rotate(5deg);
+    transform: translate(-17vw,-0vh) rotate(352deg);
+    font-size: 104px;
 }
-
-.to{
-    width: 10%;
-    margin-left: 22%;
-    transform: translate(0,-100px);
+.daysPng{
+    width: 44vh;
+    transform: translate(-16vw,-2vh) rotate(358deg);
 }
 
 .placeholderTimer{
-    width: 30%;
+    width: 40vh;
     height: 30%;
     margin-left: 10%;
-    transform: rotate(355deg);
-}
-
-.placeholderDays{
-    width: 20%;
+    transform:translate(0,-8vh) rotate(355deg);
 }
 
 .counterEndDay{
@@ -57,31 +53,36 @@
 }
 
 #numberOne{
-    transform:rotate(350deg) translate(-375px, -135px);
-    font-size: 100px;
+    transform:rotate(349deg) translate(-35vh, -22vh);
+    font-size: 92px;
 }
 
 #numberTwo{
-    transform:rotate(355deg) translate(-365px, -88px);
-    font-size: 86px;
-}
-
-#numberThree{
-    transform:rotate(350deg) translate(-310px, -125px);
-    font-size: 86px;
-}
-
-#numberFour{
-    transform:rotate(350deg) translate(-295px, -120px);
+    transform:rotate(359deg) translate(-36vh, -14vh);
     font-size: 80px;
 }
 
+#numberThree{
+    transform:rotate(350deg) translate(-29vh, -20vh);
+    font-size: 78px;
+}
+
+#numberFour{
+    transform:rotate(348deg) translate(-26vh, -19vh);
+    font-size: 64px;
+}
+
 #numberFive{
-    transform:rotate(3deg) translate(-288px, -65px);
-    font-size: 84px;
+    transform:rotate(3deg) translate(-28vh, -13vh);
+    font-size: 72px;
 }
 
 #numberSix{
-    transform:rotate(3deg) translate(-273px, -45px);
-    font-size: 74px;
+    transform:rotate(3deg) translate(-26vh, -11vh);
+    font-size: 60px;
+}
+.to{
+    width: 18vh;
+    margin-left: 17%;
+    transform: translate(-2vh,-22vh);
 }
