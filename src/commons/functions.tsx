@@ -56,3 +56,24 @@ export function conversorRelogio(num:number){
 
     return [horaString,minutosString,segundosString];
 }
+
+export function associateCounter(){
+    const horaInicial = conversorRelogio(tempoRestanteDia())[0];
+    const minutosInicial = conversorRelogio(tempoRestanteDia())[1];
+    const segundosInicial= conversorRelogio(tempoRestanteDia())[2];
+
+    const digitoUmHora = Number(horaInicial.slice(2));
+    const digitoDoisHora = Number(horaInicial.slice(0));
+    
+    const digitoUmMinutos = Number(minutosInicial.slice(0,1));
+    const digitoDoisMinutos = Number(minutosInicial.slice(1));
+    
+    const digitoUmSegundos = Number(segundosInicial.slice(0,1));
+    const digitoDoisSegundos = Number(segundosInicial.slice(1));
+    
+
+    //console.log(`Hora inicial: ${horaInicial}, Minutos ${minutosInicial}, Segundos ${segundosInicial}`);
+    //console.log(digitoUmHora,digitoDoisHora,digitoUmMinutos,digitoDoisMinutos,digitoUmSegundos,digitoDoisSegundos);
+
+    return [digitoUmHora,digitoDoisHora,digitoUmMinutos,digitoDoisMinutos,digitoUmSegundos,digitoDoisSegundos];
+}
