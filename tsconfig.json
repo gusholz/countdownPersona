@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "typeRoots" : ["node_modules/@types", "src/types"],
+    "typeRoots" : ["node_modules/@types", "docs/types"],
     "lib": [
       "dom",
       "dom.iterable",
@@ -22,9 +22,5 @@
     "noEmit": true,
     "downlevelIteration": true,
     "jsx": "react-jsx"
-  },
-  "include": [
-    "src",
-    "index.d.ts"
-  ]
+  }
 }

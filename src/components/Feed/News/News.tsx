@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { numberOfNews } from "../../../commons/functions";
-import Item from "../News/item";
+import Item from "./item";
 import './news.css';
 
 async function searchNews(q: string | number | boolean) {
