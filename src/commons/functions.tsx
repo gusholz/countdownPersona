@@ -62,8 +62,8 @@ export function associateCounter(){
     const minutosInicial = conversorRelogio(tempoRestanteDia())[1];
     const segundosInicial= conversorRelogio(tempoRestanteDia())[2];
 
-    const digitoUmHora = Number(horaInicial.slice(2));
-    const digitoDoisHora = Number(horaInicial.slice(0));
+    const digitoUmHora = Number(horaInicial.slice(0,1));
+    const digitoDoisHora = Number(horaInicial.slice(1));
     
     const digitoUmMinutos = Number(minutosInicial.slice(0,1));
     const digitoDoisMinutos = Number(minutosInicial.slice(1));
@@ -71,9 +71,21 @@ export function associateCounter(){
     const digitoUmSegundos = Number(segundosInicial.slice(0,1));
     const digitoDoisSegundos = Number(segundosInicial.slice(1));
     
-
-    //console.log(`Hora inicial: ${horaInicial}, Minutos ${minutosInicial}, Segundos ${segundosInicial}`);
-    //console.log(digitoUmHora,digitoDoisHora,digitoUmMinutos,digitoDoisMinutos,digitoUmSegundos,digitoDoisSegundos);
-
     return [digitoUmHora,digitoDoisHora,digitoUmMinutos,digitoDoisMinutos,digitoUmSegundos,digitoDoisSegundos];
+}
+
+export function numberOfNews(){
+    let x = window.innerWidth;
+    let numberOfNews: number;
+
+    if(x>=1680){
+        numberOfNews = 3;
+    }else if(x<1680 && x>1380){
+        numberOfNews = 2;
+    }else if(x<1380 && x>800){
+        numberOfNews = 1;
+    }else{
+        numberOfNews = 3;
+    }
+    return numberOfNews;
 }
