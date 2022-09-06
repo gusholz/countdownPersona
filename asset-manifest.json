@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/countdownPersona/static/css/main.d2f92488.css",
-    "main.js": "/countdownPersona/static/js/main.896da41c.js",
+    "main.css": "/countdownPersona/static/css/main.69783fca.css",
+    "main.js": "/countdownPersona/static/js/main.bd4a5304.js",
     "static/js/787.2811c65a.chunk.js": "/countdownPersona/static/js/787.2811c65a.chunk.js",
     "static/media/backgroundImageTop.jpg": "/countdownPersona/static/media/backgroundImageTop.4d720805b9c5096656b5.jpg",
     "static/media/backgroundTopMobile.jpg": "/countdownPersona/static/media/backgroundTopMobile.c8e30b2b442cd9ecc088.jpg",
@@ -9,12 +9,12 @@
     "static/media/backgroundBottomMobile.jpg": "/countdownPersona/static/media/backgroundBottomMobile.4b49625d0177a0c5bd3e.jpg",
     "static/media/BUBBS___.TTF": "/countdownPersona/static/media/BUBBS___.c7d43261297c09e65940.TTF",
     "index.html": "/countdownPersona/index.html",
-    "main.d2f92488.css.map": "/countdownPersona/static/css/main.d2f92488.css.map",
-    "main.896da41c.js.map": "/countdownPersona/static/js/main.896da41c.js.map",
+    "main.69783fca.css.map": "/countdownPersona/static/css/main.69783fca.css.map",
+    "main.bd4a5304.js.map": "/countdownPersona/static/js/main.bd4a5304.js.map",
     "787.2811c65a.chunk.js.map": "/countdownPersona/static/js/787.2811c65a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f92488.css",
-    "static/js/main.896da41c.js"
+    "static/css/main.69783fca.css",
+    "static/js/main.bd4a5304.js"
   ]
 }
