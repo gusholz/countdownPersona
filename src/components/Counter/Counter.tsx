@@ -20,6 +20,16 @@ export default function Counter(){
     let digitoUm = String(dias).slice(0,1);
     let digitoDois = String(dias).slice(1);
 
+
+    if(diferencaDias()>=10){
+        digitoUm = String(dias).slice(0,1);
+        digitoDois = String(dias).slice(1);
+    }else{
+        digitoUm = '0'
+        digitoDois = String(diferencaDias());
+    }
+    
+
     const [srcImg08Segundos,setSrcImg8] = useState(`images/segundos8/counterNumber${indice06segundos}.png`);
     const [srcImg07Segundos,setSrcImg7] = useState(`images/segundos7/counterNumber${indice05segundos}.png`);
     const [srcImg06Minutos,setSrcImg6] = useState(`images/minutos6/counterNumber${indice04minutos}.png`);
@@ -32,14 +42,16 @@ export default function Counter(){
     useEffect(()=>{
         setInterval(()=>{
             if(tempoRestanteDia() <= 0){
+                
                 setDias(diferencaDias());
-                digitoUm = String(dias).slice(0,1);
-                digitoDois = String(dias).slice(1);
-                setSrcImg1(`images/dia1/counterNumber${digitoUm}`);
-                setSrcImg2(`images/dia2/counterNumber${digitoDois}`);
+                
+     
+
+                setSrcImg1(`images/dia1/counterNumber${digitoDois}`);
+                setSrcImg2(`images/dia2/counterNumber${digitoUm}`);
             }
         },1000);
-    })
+    });
 
     useEffect(()=>{
         setInterval(()=>{
@@ -57,7 +69,7 @@ export default function Counter(){
             setSrcImg7(`images/segundos7/counterNumber${indice05segundos}.png`); 
             setSrcImg8(`images/segundos8/counterNumber${indice06segundos}.png`);       
         },1000);
-    },[])
+    },[]);
 
     return(
         <div>
@@ -78,5 +90,5 @@ export default function Counter(){
                 <img src="images/toUpscale.png" alt="To" className="to"/>
             </div>
         </div>
-    )
+    );
 }   
